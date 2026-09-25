@@ -19,3 +19,7 @@ The printer repeats this until the queue is empty:
 
 The document numbers in the order they **finish printing**.
 
+Input format:
+list called pages where pages[i] is the number of pages in the ith document   
+Output: list giving order in which documents finished printing
+eg [1,1,1] becomes [0,1,2] one page each, so submission order is preserved
