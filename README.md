@@ -70,11 +70,14 @@ Given the `root` of the org chart, return the **number of fair managers** in the
 
 ### Example 1
 ```
-Input:  root = [4,8,5,0,1,null,6]
-Output: 5
+            4
+          /   \
+         8     5
+        / \     \
+       0   1     6
 ```
-**Explanation:** For every employee, the team average equals their own salary.
-This is verified for each of the 5 nodes, so the answer is `5`.
+ 
+**Explanation:** For every employee except '8', the team average equals their own salary.
 
 ### Example 2
 ```
