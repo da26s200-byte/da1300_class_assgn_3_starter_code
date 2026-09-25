@@ -60,3 +60,41 @@ Input:  ships = [8, -8]
 Output: []
 ```
 **Explanation:** Equal power — both destroyed.
+
+## Problem 3
+
+A company's org chart is structured as a **binary tree** of employees. Each node represents an employee, and has at most two direct reports (a left report and a right report).
+
+Each employee has a `salary` value.
+
+For any employee `e`, define the **team average** of `e` as the average salary of `e` **and every employee in `e`'s reporting chain below them** (i.e., the entire subtree rooted at `e`), using **integer (floor) division**.
+
+An employee is called a **fair manager** if their own salary is exactly equal to their team average.
+
+Given the `root` of the org chart, return the **number of fair managers** in the company.
+
+---
+
+## Examples
+
+### Example 1
+```
+Input:  root = [4,8,5,0,1,null,6]
+Output: 5
+```
+**Explanation:** For every employee, the team average equals their own salary.
+This is verified for each of the 5 nodes, so the answer is `5`.
+
+### Example 2
+```
+Input:  root = [1]
+Output: 1
+```
+**Explanation:** A single employee is trivially their own fair manager: team average = 1 = salary.
+
+---
+
+## Constraints
+
+- The number of employees in the org chart is in the range `[1, 1000]`.
+- `0 <= Node.salary <= 1000`
