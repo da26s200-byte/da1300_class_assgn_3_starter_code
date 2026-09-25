@@ -42,10 +42,7 @@ All ships travel at the same speed. When two ships moving toward each other **me
 - Two ships moving in *opposite* directions only collide if the left one moves right (`+`) and the right one moves left (`−`) — i.e., they're heading toward each other.
 Return the array of engine powers (with sign, preserving direction) of the ships that remain after all collisions are resolved.
  
----
- 
-## Examples
- 
+
 ### Example 1
 ```
 Input:  ships = [6, 3, -5]
@@ -72,10 +69,6 @@ For any employee `e`, define the **team average** of `e` as the average salary o
 An employee is called a **fair manager** if their own salary is exactly equal to their team average.
 
 Given the `root` of the org chart, return the **number of fair managers** in the company.
-
----
-
-## Examples
 
 ### Example 1
 ```
