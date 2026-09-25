@@ -17,9 +17,7 @@ The printer repeats this until the queue is empty:
 3. If that document still has pages left, send it to the **back** of the queue.
    Otherwise it is finished and leaves the queue.
 
-### Return
-
-The document numbers in the order they **finish printing**.
+Return the document numbers in the order they **finish printing**.
 
 Input format:
 list called pages where pages[i] is the number of pages in the ith document   
