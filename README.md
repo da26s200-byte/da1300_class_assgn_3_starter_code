@@ -2,6 +2,8 @@
 
 This git repository contains solutions py file with functions for each question that you will be implementing, along with a public test cases evaluation script in test.py. You will have to clone this repository to your own private repo, create a fresh branch for each question as answers/q1 answers/q2 and so on, implement the solution, commit it, and merge it back into main branch. We will be evaluating on completion of git workflow tasks as well, and no marks will be given if files are directly edited online instead of following above flow.
 
+Clone this into a private repository and add 'da26s200-byte' as a collaborator.
+
 ## Problem 1
 
 A shared office printer serves documents fairly rather than finishing one before
