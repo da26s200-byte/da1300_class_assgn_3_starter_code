@@ -91,10 +91,3 @@ Input:  root = [1]
 Output: 1
 ```
 **Explanation:** A single employee is trivially their own fair manager: team average = 1 = salary.
-
----
-
-## Constraints
-
-- The number of employees in the org chart is in the range `[1, 1000]`.
-- `0 <= Node.salary <= 1000`
